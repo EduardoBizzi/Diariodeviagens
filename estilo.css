@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#slogan{
+    background-color:beige;
+    justify-content: center;
+    width: 100%;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+#nav-{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+li{
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+    color:rgb(69, 133, 112);
+    font-size: 20px;
+    margin: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#destinos{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    background:linear-gradient(45deg, rgb(49, 35, 154), #7c1ca9);
+}
+.div-destinos{
+    background-color: #eae8db;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5%;
+}
+.textos{
+    width: 60vh;
+}
+.imagens{
+    width: 60vh;
+}
+#itinerarios{
+    margin: 10px;
+    background-color: beige;
+}
+.iti{
+    margin: 10px; 
+}
+#dicas{
+    margin: 10px;
+    background-color: beige;
+}
+.dic{
+    margin: 10px;
+}
+#footer{
+    text-align: center;
+    margin: 20px;
+}
